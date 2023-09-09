@@ -5,7 +5,7 @@ export default function RegisterHeader() {
   const isRegister = Boolean(registerMatch)
   return (
     <header className='py-5'>
-      <div className='max-y-7xl mx-auto px-4'>
+      <div className='container'>
         <nav className='flex items-end'>
           <Link to='/'>
             <svg viewBox='0 0 192 65' className='h-8 fill-orange lg:h-11'>
